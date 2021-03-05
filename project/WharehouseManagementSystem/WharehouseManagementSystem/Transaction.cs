@@ -36,7 +36,11 @@ namespace WharehouseManagementSystem
         [Column(TypeName = "date")]
         public DateTime date { get; set; }
 
+        public int? paymentOrderId { get; set; }
+
         public virtual Item Item { get; set; }
+
+        public virtual Payment_Order Payment_Order { get; set; }
 
         public virtual SupplyingOrder SupplyingOrder { get; set; }
 

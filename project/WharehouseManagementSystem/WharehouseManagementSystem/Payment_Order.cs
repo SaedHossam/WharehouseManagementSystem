@@ -12,6 +12,7 @@ namespace WharehouseManagementSystem
         public Payment_Order()
         {
             Inovice_Items = new HashSet<Inovice_Items>();
+            Transactions = new HashSet<Transaction>();
         }
 
         [Key]
@@ -26,5 +27,8 @@ namespace WharehouseManagementSystem
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Inovice_Items> Inovice_Items { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Transaction> Transactions { get; set; }
     }
 }

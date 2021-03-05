@@ -76,6 +76,11 @@ namespace WharehouseManagementSystem
                 .HasForeignKey(e => e.order_number)
                 .WillCascadeOnDelete(false);
 
+            modelBuilder.Entity<Payment_Order>()
+                .HasMany(e => e.Transactions)
+                .WithOptional(e => e.Payment_Order)
+                .HasForeignKey(e => e.paymentOrderId);
+
             modelBuilder.Entity<Provider>()
                 .HasMany(e => e.SupplyingOrders)
                 .WithRequired(e => e.Provider)

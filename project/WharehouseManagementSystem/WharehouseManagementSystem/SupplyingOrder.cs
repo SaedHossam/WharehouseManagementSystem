@@ -43,10 +43,5 @@ namespace WharehouseManagementSystem
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<WarehouseItem> WarehouseItems { get; set; }
-
-        //public static implicit operator SupplyingOrder(SupplyingOrder v)
-        //{
-        //    throw new NotImplementedException();
-        //}
     }
 }

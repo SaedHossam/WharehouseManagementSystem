@@ -30,11 +30,6 @@ namespace WharehouseManagementSystem
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SupplingOrders));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.arabicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dgvSupplyOrders = new System.Windows.Forms.DataGridView();
             this.order_number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.wharehouse = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,41 +47,8 @@ namespace WharehouseManagementSystem
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSupplyOrders)).BeginInit();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.settingsToolStripMenuItem});
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.Name = "menuStrip1";
-            // 
-            // settingsToolStripMenuItem
-            // 
-            this.settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.languageToolStripMenuItem});
-            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
-            // 
-            // languageToolStripMenuItem
-            // 
-            this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.englishToolStripMenuItem,
-            this.arabicToolStripMenuItem});
-            this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
-            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
-            // 
-            // englishToolStripMenuItem
-            // 
-            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
-            // 
-            // arabicToolStripMenuItem
-            // 
-            this.arabicToolStripMenuItem.Name = "arabicToolStripMenuItem";
-            resources.ApplyResources(this.arabicToolStripMenuItem, "arabicToolStripMenuItem");
             // 
             // dgvSupplyOrders
             // 
@@ -218,11 +180,8 @@ namespace WharehouseManagementSystem
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.btnEditOrder);
             this.Controls.Add(this.dgvSupplyOrders);
-            this.Controls.Add(this.menuStrip1);
             this.Name = "SupplingOrders";
             this.Load += new System.EventHandler(this.SupplingOrders_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSupplyOrders)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -230,11 +189,6 @@ namespace WharehouseManagementSystem
         }
 
         #endregion
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem arabicToolStripMenuItem;
         private System.Windows.Forms.DataGridView dgvSupplyOrders;
         private System.Windows.Forms.Button btnEditOrder;
         private System.Windows.Forms.Button btnNew;
