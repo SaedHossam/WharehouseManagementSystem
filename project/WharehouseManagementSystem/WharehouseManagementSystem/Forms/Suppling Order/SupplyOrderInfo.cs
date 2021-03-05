@@ -6,10 +6,6 @@ namespace WharehouseManagementSystem
 {
     public partial class SupplyOrderInfo : Form
     {
-        //public SupplyOrderInfo()
-        //{
-        //    InitializeComponent();
-        //}
         WarehouseDB ent;
         SupplyingOrder order;
         string selectedItemName, unit;

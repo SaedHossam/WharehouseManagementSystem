@@ -208,6 +208,7 @@ namespace WharehouseManagementSystem
             // 
             // btnDeleteOrder
             // 
+            this.btnDeleteOrder.Enabled = false;
             this.btnDeleteOrder.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnDeleteOrder.Location = new System.Drawing.Point(690, 100);
             this.btnDeleteOrder.Name = "btnDeleteOrder";

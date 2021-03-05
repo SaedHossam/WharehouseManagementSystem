@@ -2,7 +2,6 @@ D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManag
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\bin\Debug\WharehouseManagementSystem.exe
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\bin\Debug\WharehouseManagementSystem.pdb
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\bin\Debug\ar-EG\WharehouseManagementSystem.resources.dll
-D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.csprojAssemblyReference.cache
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Form1.resources
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Properties.Resources.resources
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Form1.ar-EG.resources
@@ -28,3 +27,4 @@ D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManag
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Employess.Employees.resources
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Units.Units.resources
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Warehouses.Warehouses.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.csprojAssemblyReference.cache

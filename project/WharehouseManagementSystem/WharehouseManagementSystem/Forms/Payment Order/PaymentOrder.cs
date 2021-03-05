@@ -111,24 +111,7 @@ namespace WharehouseManagementSystem
         {
             try
             {
-                if (!string.IsNullOrEmpty(txtOrderNumber.Text))
-                {
-                    int orderNumber = int.Parse(txtOrderNumber.Text);
-                    Payment_Order order = (from o in ent.Payment_Order
-                                           where o.number == orderNumber
-                                           select o).FirstOrDefault();
-                    // TODO: Delete Order
-                    // increase item quantity, increase warehouseItems, delete transactions, delete inoviceItem
-
-                    ent.SaveChanges();
-                    MessageBox.Show("Order Updated!", "",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    PaymentOrder_Load(sender, e);
-                }
-                else
-                {
-                    MessageBox.Show("Select order to delete", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                
             }
             catch (Exception ex)
             {
