@@ -31,17 +31,17 @@ namespace WharehouseManagementSystem.Forms.Move_Items
         {
             this.cbFrom = new System.Windows.Forms.ComboBox();
             this.dgvWarehouseFrom = new System.Windows.Forms.DataGridView();
+            this.orderNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Item = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cbTo = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dgvWarehouseTo = new System.Windows.Forms.DataGridView();
-            this.btnMove = new System.Windows.Forms.Button();
-            this.orderNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Item = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnMove = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvWarehouseFrom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvWarehouseTo)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +57,8 @@ namespace WharehouseManagementSystem.Forms.Move_Items
             // 
             // dgvWarehouseFrom
             // 
+            this.dgvWarehouseFrom.AllowUserToAddRows = false;
+            this.dgvWarehouseFrom.AllowUserToDeleteRows = false;
             this.dgvWarehouseFrom.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvWarehouseFrom.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvWarehouseFrom.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -70,6 +72,23 @@ namespace WharehouseManagementSystem.Forms.Move_Items
             this.dgvWarehouseFrom.Size = new System.Drawing.Size(353, 298);
             this.dgvWarehouseFrom.TabIndex = 1;
             this.dgvWarehouseFrom.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvWarehouseFrom_CellClick);
+            // 
+            // orderNumber
+            // 
+            this.orderNumber.HeaderText = "Order Number";
+            this.orderNumber.Name = "orderNumber";
+            // 
+            // Item
+            // 
+            this.Item.HeaderText = "Item";
+            this.Item.Name = "Item";
+            this.Item.ReadOnly = true;
+            // 
+            // quantity
+            // 
+            this.quantity.HeaderText = "Quantity";
+            this.quantity.Name = "quantity";
+            this.quantity.ReadOnly = true;
             // 
             // cbTo
             // 
@@ -100,6 +119,8 @@ namespace WharehouseManagementSystem.Forms.Move_Items
             // 
             // dgvWarehouseTo
             // 
+            this.dgvWarehouseTo.AllowUserToAddRows = false;
+            this.dgvWarehouseTo.AllowUserToDeleteRows = false;
             this.dgvWarehouseTo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvWarehouseTo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvWarehouseTo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -112,33 +133,6 @@ namespace WharehouseManagementSystem.Forms.Move_Items
             this.dgvWarehouseTo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvWarehouseTo.Size = new System.Drawing.Size(353, 298);
             this.dgvWarehouseTo.TabIndex = 5;
-            // 
-            // btnMove
-            // 
-            this.btnMove.Location = new System.Drawing.Point(367, 220);
-            this.btnMove.Name = "btnMove";
-            this.btnMove.Size = new System.Drawing.Size(46, 35);
-            this.btnMove.TabIndex = 6;
-            this.btnMove.Text = ">>";
-            this.btnMove.UseVisualStyleBackColor = true;
-            this.btnMove.Click += new System.EventHandler(this.btnMove_Click);
-            // 
-            // orderNumber
-            // 
-            this.orderNumber.HeaderText = "Order Number";
-            this.orderNumber.Name = "orderNumber";
-            // 
-            // Item
-            // 
-            this.Item.HeaderText = "Item";
-            this.Item.Name = "Item";
-            this.Item.ReadOnly = true;
-            // 
-            // quantity
-            // 
-            this.quantity.HeaderText = "Quantity";
-            this.quantity.Name = "quantity";
-            this.quantity.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -156,6 +150,16 @@ namespace WharehouseManagementSystem.Forms.Move_Items
             this.dataGridViewTextBoxColumn3.HeaderText = "Quantity";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
+            // btnMove
+            // 
+            this.btnMove.Location = new System.Drawing.Point(367, 220);
+            this.btnMove.Name = "btnMove";
+            this.btnMove.Size = new System.Drawing.Size(46, 35);
+            this.btnMove.TabIndex = 6;
+            this.btnMove.Text = ">>";
+            this.btnMove.UseVisualStyleBackColor = true;
+            this.btnMove.Click += new System.EventHandler(this.btnMove_Click);
             // 
             // MoveItems
             // 
