@@ -44,13 +44,15 @@ namespace WharehouseManagementSystem.Forms.Move_Items
                     dgvWarehouseFrom.Rows.Clear();
                 else
                 {
+                    dgvWarehouseFrom.Rows.Clear();
                     loadWarehouseItems(warehouseFrom, dgvWarehouseFrom);
                 }
                 if (string.IsNullOrEmpty(warehouseTo))
                     dgvWarehouseTo.Rows.Clear();
                 else
                 {
-                    loadWarehouseItems(warehouseFrom, dgvWarehouseTo);
+                    dgvWarehouseTo.Rows.Clear();
+                    loadWarehouseItems(warehouseTo, dgvWarehouseTo);
                 }
             }
         }
