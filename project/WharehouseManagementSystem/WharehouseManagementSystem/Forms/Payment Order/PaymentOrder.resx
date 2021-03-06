@@ -120,13 +120,19 @@
   <data name="label1.Text" xml:space="preserve">
     <value>Orders List</value>
   </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="cbCustomers.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="dgvPaymentOrders.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="&gt;&gt;customerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnNewOrder.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -134,16 +140,12 @@
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;cbCustomers.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;dgvPaymentOrders.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;cbCustomers.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="txtOrderNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnDeleteOrder.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
@@ -159,14 +161,17 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PaymentOrder</value>
   </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
-  <data name="&gt;&gt;date.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 28</value>
+  </data>
+  <data name="&gt;&gt;btnEditOrder.Name" xml:space="preserve">
+    <value>btnEditOrder</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -180,14 +185,11 @@
   <data name="&gt;&gt;btnEditItems.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 13</value>
   </data>
-  <data name="&gt;&gt;cbCustomers.Name" xml:space="preserve">
-    <value>cbCustomers</value>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="btnNewOrder.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -204,11 +206,9 @@
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn1</value>
-  </data>
-  <data name="customer.HeaderText" xml:space="preserve">
-    <value>Customer</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvPaymentOrders.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -219,8 +219,8 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="&gt;&gt;btnEditItems.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="dgvPaymentOrders.Size" type="System.Drawing.Size, System.Drawing">
     <value>800, 319</value>
@@ -234,22 +234,13 @@
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 13</value>
   </data>
-  <data name="&gt;&gt;dtpDate.Name" xml:space="preserve">
-    <value>dtpDate</value>
-  </data>
   <data name="order_number.HeaderText" xml:space="preserve">
     <value>#</value>
-  </data>
-  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 175</value>
-  </data>
-  <data name="&gt;&gt;btnDeleteOrder.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;dtpDate.Type" xml:space="preserve">
     <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnNewOrder.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;order_number.Name" xml:space="preserve">
@@ -270,8 +261,8 @@
   <data name="dgvPaymentOrders.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="dtpDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>342, 46</value>
+  <data name="dtpDate.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
   </data>
   <data name="btnDeleteOrder.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -282,20 +273,20 @@
   <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="&gt;&gt;btnNewOrder.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;customerName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
   </data>
-  <data name="&gt;&gt;btnEditOrder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnEditOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 100</value>
   </data>
   <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="btnDeleteOrder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
     <value>Date</value>
@@ -324,8 +315,8 @@
   <data name="btnDeleteOrder.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cbCustomers.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -342,14 +333,14 @@
   <data name="cbCustomers.Location" type="System.Drawing.Point, System.Drawing">
     <value>165, 45</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
-    <value>dataGridView1</value>
+  <data name="&gt;&gt;dtpDate.Name" xml:space="preserve">
+    <value>dtpDate</value>
   </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;cbCustomers.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="txtOrderNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
   </data>
   <data name="&gt;&gt;dgvPaymentOrders.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -357,8 +348,14 @@
   <data name="btnEditOrder.Text" xml:space="preserve">
     <value>Edit Info</value>
   </data>
-  <data name="&gt;&gt;date.Name" xml:space="preserve">
-    <value>date</value>
+  <data name="&gt;&gt;txtOrderNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnEditOrder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
     <value>12</value>
@@ -369,32 +366,32 @@
   <data name="&gt;&gt;orderNumber.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="dtpDate.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
+  <data name="btnDeleteOrder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;txtOrderNumber.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;date.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;customer.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 13</value>
+  <data name="&gt;&gt;cbCustomers.Name" xml:space="preserve">
+    <value>cbCustomers</value>
   </data>
   <data name="&gt;&gt;txtOrderNumber.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>339, 28</value>
+  <data name="btnEditItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;order_number.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnDeleteOrder.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="customer.HeaderText" xml:space="preserve">
+    <value>Customer</value>
   </data>
   <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -408,8 +405,8 @@
   <data name="&gt;&gt;btnNewOrder.Name" xml:space="preserve">
     <value>btnNewOrder</value>
   </data>
-  <data name="btnDeleteOrder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>690, 100</value>
+  <data name="&gt;&gt;btnEditOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Order Number</value>
@@ -420,9 +417,6 @@
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btnEditItems.Text" xml:space="preserve">
-    <value>Edit Items</value>
-  </data>
   <data name="&gt;&gt;btnEditOrder.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
@@ -432,14 +426,14 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Payment Order</value>
   </data>
-  <data name="&gt;&gt;order_number.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
   </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnDeleteOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>690, 100</value>
   </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="btnEditItems.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -450,14 +444,17 @@
   <data name="customerName.Width" type="System.Int32, mscorlib">
     <value>150</value>
   </data>
-  <data name="btnEditItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 28</value>
   </data>
   <data name="btnEditItems.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
-  <data name="btnEditOrder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>595, 100</value>
+  <data name="&gt;&gt;customer.Name" xml:space="preserve">
+    <value>customer</value>
+  </data>
+  <data name="&gt;&gt;cbCustomers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 13</value>
@@ -468,8 +465,8 @@
   <data name="txtOrderNumber.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="btnDeleteOrder.Text" xml:space="preserve">
-    <value>Delete</value>
+  <data name="dtpDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 46</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Customer</value>
@@ -483,8 +480,8 @@
   <data name="btnNewOrder.Text" xml:space="preserve">
     <value>New</value>
   </data>
-  <data name="cbCustomers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 175</value>
   </data>
   <data name="btnNewOrder.Location" type="System.Drawing.Point, System.Drawing">
     <value>513, 100</value>
@@ -495,29 +492,32 @@
   <data name="&gt;&gt;txtOrderNumber.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnNewOrder.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;btnEditItems.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>800, 450</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
   </data>
-  <data name="btnEditOrder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;customer.Name" xml:space="preserve">
-    <value>customer</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnNewOrder.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="btnDeleteOrder.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;date.Name" xml:space="preserve">
+    <value>date</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteOrder.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="txtOrderNumber.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -528,8 +528,8 @@
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnEditOrder.Name" xml:space="preserve">
-    <value>btnEditOrder</value>
+  <data name="btnEditItems.Text" xml:space="preserve">
+    <value>Edit Items</value>
   </data>
   <metadata name="order_number.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

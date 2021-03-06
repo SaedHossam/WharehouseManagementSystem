@@ -163,6 +163,7 @@ namespace WharehouseManagementSystem
             this.dataGridViewTextBoxColumn1});
             this.dgvPaymentOrders.Name = "dgvPaymentOrders";
             this.dgvPaymentOrders.ReadOnly = true;
+            this.dgvPaymentOrders.RowHeadersVisible = false;
             this.dgvPaymentOrders.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvPaymentOrders.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPaymentOrders_CellClick);
             // 

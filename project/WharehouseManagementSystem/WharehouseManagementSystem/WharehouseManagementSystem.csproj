@@ -156,8 +156,14 @@
     <Compile Include="Data\WarehouseDB.cs" />
     <Compile Include="Data\WarehouseItem.cs" />
     <Compile Include="Data\Wharehouse.cs" />
+    <EmbeddedResource Include="Forms\Customers\Customers.ar-EG.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Customers\Customers.resx">
       <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Employess\Employees.ar-EG.resx">
+      <DependentUpon>Employees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Employess\Employees.resx">
       <DependentUpon>Employees.cs</DependentUpon>
@@ -168,29 +174,59 @@
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Items\Items.ar-EG.resx">
+      <DependentUpon>Items.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Items\Items.resx">
       <DependentUpon>Items.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Move Items\MoveItems.ar-EG.resx">
+      <DependentUpon>MoveItems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Move Items\MoveItems.resx">
       <DependentUpon>MoveItems.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Payment Order\PaymentOrder.ar-EG.resx">
+      <DependentUpon>PaymentOrder.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Payment Order\PaymentOrder.resx">
       <DependentUpon>PaymentOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Payment Order\PaymentOrderInfo.ar-EG.resx">
+      <DependentUpon>PaymentOrderInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Payment Order\PaymentOrderInfo.resx">
       <DependentUpon>PaymentOrderInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reports\ExpireReport.ar-EG.resx">
+      <DependentUpon>ExpireReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Reports\ExpireReport.resx">
       <DependentUpon>ExpireReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reports\Reports.ar-EG.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Reports\Reports.resx">
       <DependentUpon>Reports.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Suppliers\Suppliers.ar-EG.resx">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Suppliers\Suppliers.resx">
       <DependentUpon>Suppliers.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Suppling Order\SupplyOrderInfo.ar-EG.resx">
+      <DependentUpon>SupplyOrderInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Units\Units.ar-EG.resx">
+      <DependentUpon>Units.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Units\Units.resx">
       <DependentUpon>Units.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Warehouses\Warehouses.ar-EG.resx">
+      <DependentUpon>Warehouses.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Warehouses\Warehouses.resx">
       <DependentUpon>Warehouses.cs</DependentUpon>

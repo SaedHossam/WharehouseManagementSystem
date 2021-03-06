@@ -64,6 +64,7 @@ namespace WharehouseManagementSystem
             this.date});
             this.dgvSupplyOrders.Name = "dgvSupplyOrders";
             this.dgvSupplyOrders.ReadOnly = true;
+            this.dgvSupplyOrders.RowHeadersVisible = false;
             this.dgvSupplyOrders.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvSupplyOrders.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSupplyOrders_CellClick);
             // 

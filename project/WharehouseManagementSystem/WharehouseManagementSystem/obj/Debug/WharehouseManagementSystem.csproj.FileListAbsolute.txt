@@ -30,3 +30,15 @@ D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManag
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.csprojAssemblyReference.cache
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Reports.ExpireReport.resources
 D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Reports.Reports.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Customers.Customers.ar-EG.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Employess.Employees.ar-EG.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Items.Items.ar-EG.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Move_Items.MoveItems.ar-EG.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.PaymentOrder.ar-EG.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.PaymentOrderInfo.ar-EG.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Reports.ExpireReport.ar-EG.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Reports.Reports.ar-EG.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Suppliers.Suppliers.ar-EG.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.SupplyOrderInfo.ar-EG.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Units.Units.ar-EG.resources
+D:\ITI\19-ADO LINQ EF\Project\project\WharehouseManagementSystem\WharehouseManagementSystem\obj\Debug\WharehouseManagementSystem.Forms.Warehouses.Warehouses.ar-EG.resources

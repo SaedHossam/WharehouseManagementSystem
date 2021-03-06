@@ -31,6 +31,13 @@ namespace WharehouseManagementSystem.Forms.Customers
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customers));
             this.dgvCustomers = new System.Windows.Forms.DataGridView();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mobile = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fax = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.website = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnNew = new System.Windows.Forms.Button();
@@ -49,13 +56,6 @@ namespace WharehouseManagementSystem.Forms.Customers
             this.label7 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mobile = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fax = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.website = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,6 +64,7 @@ namespace WharehouseManagementSystem.Forms.Customers
             resources.ApplyResources(this.dgvCustomers, "dgvCustomers");
             this.dgvCustomers.AllowUserToAddRows = false;
             this.dgvCustomers.AllowUserToDeleteRows = false;
+            this.dgvCustomers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCustomers.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
@@ -77,6 +78,48 @@ namespace WharehouseManagementSystem.Forms.Customers
             this.dgvCustomers.ReadOnly = true;
             this.dgvCustomers.RowHeadersVisible = false;
             this.dgvCustomers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCustomers_CellClick);
+            // 
+            // id
+            // 
+            resources.ApplyResources(this.id, "id");
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            // 
+            // name
+            // 
+            resources.ApplyResources(this.name, "name");
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            // 
+            // phone
+            // 
+            resources.ApplyResources(this.phone, "phone");
+            this.phone.Name = "phone";
+            this.phone.ReadOnly = true;
+            // 
+            // mobile
+            // 
+            resources.ApplyResources(this.mobile, "mobile");
+            this.mobile.Name = "mobile";
+            this.mobile.ReadOnly = true;
+            // 
+            // fax
+            // 
+            resources.ApplyResources(this.fax, "fax");
+            this.fax.Name = "fax";
+            this.fax.ReadOnly = true;
+            // 
+            // website
+            // 
+            resources.ApplyResources(this.website, "website");
+            this.website.Name = "website";
+            this.website.ReadOnly = true;
+            // 
+            // email
+            // 
+            resources.ApplyResources(this.email, "email");
+            this.email.Name = "email";
+            this.email.ReadOnly = true;
             // 
             // txtName
             // 
@@ -173,48 +216,6 @@ namespace WharehouseManagementSystem.Forms.Customers
             // 
             resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            // 
-            // id
-            // 
-            resources.ApplyResources(this.id, "id");
-            this.id.Name = "id";
-            this.id.ReadOnly = true;
-            // 
-            // name
-            // 
-            resources.ApplyResources(this.name, "name");
-            this.name.Name = "name";
-            this.name.ReadOnly = true;
-            // 
-            // phone
-            // 
-            resources.ApplyResources(this.phone, "phone");
-            this.phone.Name = "phone";
-            this.phone.ReadOnly = true;
-            // 
-            // mobile
-            // 
-            resources.ApplyResources(this.mobile, "mobile");
-            this.mobile.Name = "mobile";
-            this.mobile.ReadOnly = true;
-            // 
-            // fax
-            // 
-            resources.ApplyResources(this.fax, "fax");
-            this.fax.Name = "fax";
-            this.fax.ReadOnly = true;
-            // 
-            // website
-            // 
-            resources.ApplyResources(this.website, "website");
-            this.website.Name = "website";
-            this.website.ReadOnly = true;
-            // 
-            // email
-            // 
-            resources.ApplyResources(this.email, "email");
-            this.email.Name = "email";
-            this.email.ReadOnly = true;
             // 
             // Customers
             // 
