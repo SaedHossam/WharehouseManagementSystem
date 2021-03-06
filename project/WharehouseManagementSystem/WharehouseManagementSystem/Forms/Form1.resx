@@ -330,9 +330,6 @@
   <data name="&gt;&gt;btnWharehouses.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="btnReports.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="btnReports.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>

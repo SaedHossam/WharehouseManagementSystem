@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WharehouseManagementSystem.Forms.Move_Items
@@ -137,7 +132,7 @@ namespace WharehouseManagementSystem.Forms.Move_Items
                                                             && w.order_id == warehouseFromItems.order_id
                                                          select w
                                                          ).FirstOrDefault();
-                        if(warehouseItemTo == null)
+                        if (warehouseItemTo == null)
                         {
                             warehouseItemTo = new WarehouseItem();
                             warehouseItemTo.item_id = warehouseFromItems.item_id;

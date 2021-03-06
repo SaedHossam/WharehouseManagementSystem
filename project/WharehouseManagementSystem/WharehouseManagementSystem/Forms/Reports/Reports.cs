@@ -16,5 +16,11 @@ namespace WharehouseManagementSystem.Forms.Reports
         {
             InitializeComponent();
         }
+
+        private void btnExpireReport_Click(object sender, EventArgs e)
+        {
+            ExpireReport obj = new ExpireReport();
+            obj.Show();
+        }
     }
 }

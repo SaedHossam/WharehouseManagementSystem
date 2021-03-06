@@ -99,6 +99,12 @@
     <Compile Include="Forms\Payment Order\PaymentOrderInfo.Designer.cs">
       <DependentUpon>PaymentOrderInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Reports\ExpireReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reports\ExpireReport.Designer.cs">
+      <DependentUpon>ExpireReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Reports\Reports.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +179,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Payment Order\PaymentOrderInfo.resx">
       <DependentUpon>PaymentOrderInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reports\ExpireReport.resx">
+      <DependentUpon>ExpireReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reports\Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Suppliers\Suppliers.resx">
       <DependentUpon>Suppliers.cs</DependentUpon>
