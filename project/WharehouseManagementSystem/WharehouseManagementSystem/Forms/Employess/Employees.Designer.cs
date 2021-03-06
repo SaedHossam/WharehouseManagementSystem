@@ -29,6 +29,7 @@ namespace WharehouseManagementSystem.Forms.Employess
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Employees));
             this.label1 = new System.Windows.Forms.Label();
             this.btnNew = new System.Windows.Forms.Button();
             this.txtId = new System.Windows.Forms.TextBox();
@@ -44,97 +45,75 @@ namespace WharehouseManagementSystem.Forms.Employess
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 78);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(18, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ID";
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(351, 102);
+            resources.ApplyResources(this.btnNew, "btnNew");
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(75, 23);
-            this.btnNew.TabIndex = 1;
-            this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = true;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // txtId
             // 
-            this.txtId.Enabled = false;
-            this.txtId.Location = new System.Drawing.Point(25, 105);
+            resources.ApplyResources(this.txtId, "txtId");
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(100, 20);
-            this.txtId.TabIndex = 2;
             // 
             // dgvEmployess
             // 
+            resources.ApplyResources(this.dgvEmployess, "dgvEmployess");
+            this.dgvEmployess.AllowUserToAddRows = false;
+            this.dgvEmployess.AllowUserToDeleteRows = false;
+            this.dgvEmployess.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvEmployess.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvEmployess.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
             this.name});
-            this.dgvEmployess.Location = new System.Drawing.Point(25, 253);
             this.dgvEmployess.Name = "dgvEmployess";
             this.dgvEmployess.RowHeadersVisible = false;
-            this.dgvEmployess.Size = new System.Drawing.Size(462, 150);
-            this.dgvEmployess.TabIndex = 3;
             this.dgvEmployess.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(171, 105);
+            resources.ApplyResources(this.txtName, "txtName");
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 20);
-            this.txtName.TabIndex = 5;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(168, 78);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Name";
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(492, 102);
+            resources.ApplyResources(this.btnUpdate, "btnUpdate");
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
-            this.btnUpdate.TabIndex = 6;
-            this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(623, 105);
+            resources.ApplyResources(this.btnDelete, "btnDelete");
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnDelete.TabIndex = 7;
-            this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // id
             // 
-            this.id.HeaderText = "#";
+            resources.ApplyResources(this.id, "id");
             this.id.Name = "id";
             this.id.ReadOnly = true;
             // 
             // name
             // 
-            this.name.HeaderText = "Name";
+            resources.ApplyResources(this.name, "name");
             this.name.Name = "name";
             this.name.ReadOnly = true;
             // 
             // Employees
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.txtName);
@@ -144,7 +123,6 @@ namespace WharehouseManagementSystem.Forms.Employess
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.label1);
             this.Name = "Employees";
-            this.Text = "Employees";
             this.Load += new System.EventHandler(this.Employees_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployess)).EndInit();
             this.ResumeLayout(false);

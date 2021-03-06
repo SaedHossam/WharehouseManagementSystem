@@ -52,9 +52,9 @@ namespace WharehouseManagementSystem
             // 
             // dgvSupplyOrders
             // 
+            resources.ApplyResources(this.dgvSupplyOrders, "dgvSupplyOrders");
             this.dgvSupplyOrders.AllowUserToAddRows = false;
             this.dgvSupplyOrders.AllowUserToDeleteRows = false;
-            resources.ApplyResources(this.dgvSupplyOrders, "dgvSupplyOrders");
             this.dgvSupplyOrders.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvSupplyOrders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSupplyOrders.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -124,9 +124,9 @@ namespace WharehouseManagementSystem
             // 
             // cbWarehouses
             // 
+            resources.ApplyResources(this.cbWarehouses, "cbWarehouses");
             this.cbWarehouses.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbWarehouses.FormattingEnabled = true;
-            resources.ApplyResources(this.cbWarehouses, "cbWarehouses");
             this.cbWarehouses.Name = "cbWarehouses";
             // 
             // dtpDate
@@ -136,9 +136,9 @@ namespace WharehouseManagementSystem
             // 
             // cbSuppliers
             // 
+            resources.ApplyResources(this.cbSuppliers, "cbSuppliers");
             this.cbSuppliers.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSuppliers.FormattingEnabled = true;
-            resources.ApplyResources(this.cbSuppliers, "cbSuppliers");
             this.cbSuppliers.Name = "cbSuppliers";
             // 
             // btnEditItems

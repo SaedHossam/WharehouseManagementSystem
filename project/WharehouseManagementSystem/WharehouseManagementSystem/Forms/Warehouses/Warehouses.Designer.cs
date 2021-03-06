@@ -29,6 +29,7 @@ namespace WharehouseManagementSystem.Forms.Warehouses
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Warehouses));
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
@@ -51,157 +52,116 @@ namespace WharehouseManagementSystem.Forms.Warehouses
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(33, 245);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(77, 13);
-            this.label8.TabIndex = 37;
-            this.label8.Text = "Customers List";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(29, 30);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(24, 13);
-            this.label7.TabIndex = 36;
-            this.label7.Text = "No.";
             // 
             // txtId
             // 
-            this.txtId.Enabled = false;
-            this.txtId.Location = new System.Drawing.Point(29, 49);
+            resources.ApplyResources(this.txtId, "txtId");
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(100, 20);
-            this.txtId.TabIndex = 35;
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(696, 62);
+            resources.ApplyResources(this.btnDelete, "btnDelete");
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnDelete.TabIndex = 34;
-            this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(586, 62);
+            resources.ApplyResources(this.btnUpdate, "btnUpdate");
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
-            this.btnUpdate.TabIndex = 33;
-            this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(299, 79);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(117, 13);
-            this.label5.TabIndex = 30;
-            this.label5.Text = "Responsable Employee";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(150, 79);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 13);
-            this.label6.TabIndex = 28;
-            this.label6.Text = "Address";
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(475, 62);
+            resources.ApplyResources(this.btnNew, "btnNew");
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(75, 23);
-            this.btnNew.TabIndex = 22;
-            this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = true;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 79);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "Name";
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(29, 98);
+            resources.ApplyResources(this.txtName, "txtName");
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 20);
-            this.txtName.TabIndex = 20;
             // 
             // dgvWarehouses
             // 
             this.dgvWarehouses.AllowUserToAddRows = false;
             this.dgvWarehouses.AllowUserToDeleteRows = false;
+            this.dgvWarehouses.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvWarehouses.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvWarehouses.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
             this.name,
             this.address,
             this.employee});
-            this.dgvWarehouses.Location = new System.Drawing.Point(29, 271);
+            resources.ApplyResources(this.dgvWarehouses, "dgvWarehouses");
             this.dgvWarehouses.Name = "dgvWarehouses";
             this.dgvWarehouses.ReadOnly = true;
             this.dgvWarehouses.RowHeadersVisible = false;
-            this.dgvWarehouses.Size = new System.Drawing.Size(742, 150);
-            this.dgvWarehouses.TabIndex = 19;
             this.dgvWarehouses.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvWarehouses_CellClick);
             // 
             // id
             // 
-            this.id.HeaderText = "#";
+            resources.ApplyResources(this.id, "id");
             this.id.Name = "id";
             this.id.ReadOnly = true;
             // 
             // name
             // 
-            this.name.HeaderText = "Name";
+            resources.ApplyResources(this.name, "name");
             this.name.Name = "name";
             this.name.ReadOnly = true;
             // 
             // address
             // 
-            this.address.HeaderText = "Address";
+            resources.ApplyResources(this.address, "address");
             this.address.Name = "address";
             this.address.ReadOnly = true;
             // 
             // employee
             // 
-            this.employee.HeaderText = "Employee";
+            resources.ApplyResources(this.employee, "employee");
             this.employee.Name = "employee";
             this.employee.ReadOnly = true;
             // 
             // rtbAddress
             // 
-            this.rtbAddress.Location = new System.Drawing.Point(153, 98);
+            resources.ApplyResources(this.rtbAddress, "rtbAddress");
             this.rtbAddress.Name = "rtbAddress";
-            this.rtbAddress.Size = new System.Drawing.Size(128, 56);
-            this.rtbAddress.TabIndex = 38;
-            this.rtbAddress.Text = "";
             // 
             // cbEmployess
             // 
             this.cbEmployess.FormattingEnabled = true;
-            this.cbEmployess.Location = new System.Drawing.Point(302, 96);
+            resources.ApplyResources(this.cbEmployess, "cbEmployess");
             this.cbEmployess.Name = "cbEmployess";
-            this.cbEmployess.Size = new System.Drawing.Size(121, 21);
-            this.cbEmployess.TabIndex = 39;
             // 
             // Warehouses
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.cbEmployess);
             this.Controls.Add(this.rtbAddress);
             this.Controls.Add(this.label8);
@@ -216,7 +176,6 @@ namespace WharehouseManagementSystem.Forms.Warehouses
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.dgvWarehouses);
             this.Name = "Warehouses";
-            this.Text = "Warehouses";
             this.Load += new System.EventHandler(this.Warehouses_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvWarehouses)).EndInit();
             this.ResumeLayout(false);
@@ -237,11 +196,11 @@ namespace WharehouseManagementSystem.Forms.Warehouses
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.DataGridView dgvWarehouses;
+        private System.Windows.Forms.RichTextBox rtbAddress;
+        private System.Windows.Forms.ComboBox cbEmployess;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn address;
         private System.Windows.Forms.DataGridViewTextBoxColumn employee;
-        private System.Windows.Forms.RichTextBox rtbAddress;
-        private System.Windows.Forms.ComboBox cbEmployess;
     }
 }

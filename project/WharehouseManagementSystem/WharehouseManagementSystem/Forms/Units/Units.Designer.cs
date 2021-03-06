@@ -29,6 +29,7 @@ namespace WharehouseManagementSystem.Forms.Units
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Units));
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
@@ -38,130 +39,102 @@ namespace WharehouseManagementSystem.Forms.Units
             this.btnNew = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.nudQuantity = new System.Windows.Forms.NumericUpDown();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nudQuantity = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUnits)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).BeginInit();
             this.SuspendLayout();
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(713, 41);
+            resources.ApplyResources(this.btnDelete, "btnDelete");
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnDelete.TabIndex = 15;
-            this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(582, 41);
+            resources.ApplyResources(this.btnUpdate, "btnUpdate");
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
-            this.btnUpdate.TabIndex = 14;
-            this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(158, 47);
+            resources.ApplyResources(this.txtName, "txtName");
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 20);
-            this.txtName.TabIndex = 13;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(155, 20);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Name";
             // 
             // dgvUnits
             // 
+            resources.ApplyResources(this.dgvUnits, "dgvUnits");
+            this.dgvUnits.AllowUserToAddRows = false;
+            this.dgvUnits.AllowUserToDeleteRows = false;
+            this.dgvUnits.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvUnits.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvUnits.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
             this.name,
             this.quantity});
-            this.dgvUnits.Location = new System.Drawing.Point(12, 195);
             this.dgvUnits.Name = "dgvUnits";
             this.dgvUnits.RowHeadersVisible = false;
-            this.dgvUnits.Size = new System.Drawing.Size(462, 150);
-            this.dgvUnits.TabIndex = 11;
             this.dgvUnits.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUnits_CellClick);
             // 
             // txtId
             // 
-            this.txtId.Enabled = false;
-            this.txtId.Location = new System.Drawing.Point(12, 47);
+            resources.ApplyResources(this.txtId, "txtId");
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(100, 20);
-            this.txtId.TabIndex = 10;
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(441, 41);
+            resources.ApplyResources(this.btnNew, "btnNew");
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(75, 23);
-            this.btnNew.TabIndex = 9;
-            this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = true;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 20);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(18, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "ID";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(286, 20);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Quantity";
+            // 
+            // nudQuantity
+            // 
+            resources.ApplyResources(this.nudQuantity, "nudQuantity");
+            this.nudQuantity.Name = "nudQuantity";
             // 
             // id
             // 
-            this.id.HeaderText = "#";
+            resources.ApplyResources(this.id, "id");
             this.id.Name = "id";
             this.id.ReadOnly = true;
             // 
             // name
             // 
-            this.name.HeaderText = "Name";
+            resources.ApplyResources(this.name, "name");
             this.name.Name = "name";
             this.name.ReadOnly = true;
             // 
             // quantity
             // 
-            this.quantity.HeaderText = "quantity / Unit";
+            resources.ApplyResources(this.quantity, "quantity");
             this.quantity.Name = "quantity";
             this.quantity.ReadOnly = true;
             // 
-            // nudQuantity
-            // 
-            this.nudQuantity.Location = new System.Drawing.Point(289, 46);
-            this.nudQuantity.Name = "nudQuantity";
-            this.nudQuantity.Size = new System.Drawing.Size(120, 20);
-            this.nudQuantity.TabIndex = 17;
-            // 
             // Units
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.nudQuantity);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnDelete);
@@ -173,7 +146,6 @@ namespace WharehouseManagementSystem.Forms.Units
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.label1);
             this.Name = "Units";
-            this.Text = "Units";
             this.Load += new System.EventHandler(this.Units_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUnits)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).EndInit();
@@ -193,9 +165,9 @@ namespace WharehouseManagementSystem.Forms.Units
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NumericUpDown nudQuantity;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn quantity;
-        private System.Windows.Forms.NumericUpDown nudQuantity;
     }
 }

@@ -29,6 +29,7 @@ namespace WharehouseManagementSystem.Forms.Customers
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customers));
             this.dgvCustomers = new System.Windows.Forms.DataGridView();
             this.txtName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -47,6 +48,7 @@ namespace WharehouseManagementSystem.Forms.Customers
             this.btnDelete = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,12 +56,12 @@ namespace WharehouseManagementSystem.Forms.Customers
             this.fax = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.website = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomers)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvCustomers
             // 
+            resources.ApplyResources(this.dgvCustomers, "dgvCustomers");
             this.dgvCustomers.AllowUserToAddRows = false;
             this.dgvCustomers.AllowUserToDeleteRows = false;
             this.dgvCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -71,213 +73,153 @@ namespace WharehouseManagementSystem.Forms.Customers
             this.fax,
             this.website,
             this.email});
-            this.dgvCustomers.Location = new System.Drawing.Point(12, 246);
             this.dgvCustomers.Name = "dgvCustomers";
             this.dgvCustomers.ReadOnly = true;
             this.dgvCustomers.RowHeadersVisible = false;
-            this.dgvCustomers.Size = new System.Drawing.Size(742, 150);
-            this.dgvCustomers.TabIndex = 0;
             this.dgvCustomers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCustomers_CellClick);
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(12, 73);
+            resources.ApplyResources(this.txtName, "txtName");
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 20);
-            this.txtName.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 54);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Name";
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(458, 37);
+            resources.ApplyResources(this.btnNew, "btnNew");
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(75, 23);
-            this.btnNew.TabIndex = 3;
-            this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = true;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(162, 54);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Phone";
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(162, 73);
+            resources.ApplyResources(this.txtPhone, "txtPhone");
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(100, 20);
-            this.txtPhone.TabIndex = 4;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(282, 54);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Mobile";
             // 
             // txtMobile
             // 
-            this.txtMobile.Location = new System.Drawing.Point(282, 73);
+            resources.ApplyResources(this.txtMobile, "txtMobile");
             this.txtMobile.Name = "txtMobile";
-            this.txtMobile.Size = new System.Drawing.Size(100, 20);
-            this.txtMobile.TabIndex = 6;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(282, 106);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(31, 13);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Email";
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(282, 125);
+            resources.ApplyResources(this.txtEmail, "txtEmail");
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(100, 20);
-            this.txtEmail.TabIndex = 12;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(162, 106);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 13);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Website";
             // 
             // txtWebsite
             // 
-            this.txtWebsite.Location = new System.Drawing.Point(162, 125);
+            resources.ApplyResources(this.txtWebsite, "txtWebsite");
             this.txtWebsite.Name = "txtWebsite";
-            this.txtWebsite.Size = new System.Drawing.Size(100, 20);
-            this.txtWebsite.TabIndex = 10;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 106);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(25, 13);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Fax";
             // 
             // txtFax
             // 
-            this.txtFax.Location = new System.Drawing.Point(12, 125);
+            resources.ApplyResources(this.txtFax, "txtFax");
             this.txtFax.Name = "txtFax";
-            this.txtFax.Size = new System.Drawing.Size(100, 20);
-            this.txtFax.TabIndex = 8;
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(569, 37);
+            resources.ApplyResources(this.btnUpdate, "btnUpdate");
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
-            this.btnUpdate.TabIndex = 14;
-            this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(679, 37);
+            resources.ApplyResources(this.btnDelete, "btnDelete");
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnDelete.TabIndex = 15;
-            this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 5);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(24, 13);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "No.";
             // 
             // txtId
             // 
-            this.txtId.Enabled = false;
-            this.txtId.Location = new System.Drawing.Point(12, 24);
+            resources.ApplyResources(this.txtId, "txtId");
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(100, 20);
-            this.txtId.TabIndex = 16;
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.Name = "label8";
             // 
             // id
             // 
-            this.id.HeaderText = "#";
+            resources.ApplyResources(this.id, "id");
             this.id.Name = "id";
             this.id.ReadOnly = true;
             // 
             // name
             // 
-            this.name.HeaderText = "Name";
+            resources.ApplyResources(this.name, "name");
             this.name.Name = "name";
             this.name.ReadOnly = true;
             // 
             // phone
             // 
-            this.phone.HeaderText = "Phone";
+            resources.ApplyResources(this.phone, "phone");
             this.phone.Name = "phone";
             this.phone.ReadOnly = true;
             // 
             // mobile
             // 
-            this.mobile.HeaderText = "Mobile";
+            resources.ApplyResources(this.mobile, "mobile");
             this.mobile.Name = "mobile";
             this.mobile.ReadOnly = true;
             // 
             // fax
             // 
-            this.fax.HeaderText = "Fax";
+            resources.ApplyResources(this.fax, "fax");
             this.fax.Name = "fax";
             this.fax.ReadOnly = true;
             // 
             // website
             // 
-            this.website.HeaderText = "Website";
+            resources.ApplyResources(this.website, "website");
             this.website.Name = "website";
             this.website.ReadOnly = true;
             // 
             // email
             // 
-            this.email.HeaderText = "Email";
+            resources.ApplyResources(this.email, "email");
             this.email.Name = "email";
             this.email.ReadOnly = true;
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(16, 220);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(77, 13);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "Customers List";
-            // 
             // Customers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtId);
@@ -298,7 +240,6 @@ namespace WharehouseManagementSystem.Forms.Customers
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.dgvCustomers);
             this.Name = "Customers";
-            this.Text = "Customers";
             this.Load += new System.EventHandler(this.Customers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomers)).EndInit();
             this.ResumeLayout(false);
@@ -326,6 +267,7 @@ namespace WharehouseManagementSystem.Forms.Customers
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn phone;
@@ -333,6 +275,5 @@ namespace WharehouseManagementSystem.Forms.Customers
         private System.Windows.Forms.DataGridViewTextBoxColumn fax;
         private System.Windows.Forms.DataGridViewTextBoxColumn website;
         private System.Windows.Forms.DataGridViewTextBoxColumn email;
-        private System.Windows.Forms.Label label8;
     }
 }
